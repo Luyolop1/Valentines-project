@@ -1,0 +1,73 @@
+body {
+    background-image: url('romantic-dinner-for-valentine-s-day-wallpaper-1920x1080_48.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: bgChange 30s linear infinite;
+ }
+
+.Routines {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: pink;
+    margin-left: 120px;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 3px brown;
+
+ }
+
+ h3 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    text-shadow: 1px 1px 1px lightsalmon;
+ }
+ 
+ p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    font-size: 17px;
+ }
+
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+    opacity: 0.8;
+    margin-left: 115px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 70px;
+    display: inline-table;
+    transition: 1s;
+}
+
+
+
+
+
+.card:hover {
+    padding: 10px 15px;
+    transition: 1s;
+    box-shadow: 9px 9px 9px red;
+}
+
+
+
+@keyframes bgChange {
+    0%,100% {
+        background-image: url('massage.jpg');
+    }
+    25% {
+        background-image: url('Happy\ couple.jpg');
+    }
+    50% {
+        background-image: url('wallpapersden.com_couple-breaking-apart-painting_1920x1080.jpg');
+    }
+    75% {
+        background-image: url('couple_night_art_129094_1920x1080.jpg');
+    }
+ }
