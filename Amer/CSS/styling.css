@@ -1,0 +1,57 @@
+
+
+.Routines {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: pink;
+    margin-left: 75px;
+    text-shadow: 3px 3px 3px brown;
+    z-index: -1;
+    position: relative;
+
+ }
+
+ .Routines::after{
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: pink;
+    height: 100px;
+    width: 200px;
+    z-index: 1;
+ }
+
+ h3 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    text-shadow: 1px 1px 1px lightsalmon;
+ }
+ 
+ p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    font-size: 17px;
+ }
+
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+    opacity: 0.8;
+    margin-left: 115px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 70px;
+    display: inline-table;
+    transition: 1s;
+}
+
+.card:hover {
+    padding: 10px 15px;
+    transition: 1s;
+    box-shadow: 9px 9px 9px red;
+}
+
+

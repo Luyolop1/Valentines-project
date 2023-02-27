@@ -1,0 +1,94 @@
+/*Card start*/
+.gifts{
+    color: rgb(25, 204, 228);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 35px;
+    margin-left: 70px;
+    line-height: 20px;
+    background: transparent;
+}
+
+.giftsWoman{
+    color: rgb(228, 25, 177);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.giftsman{
+    color: rgb(25, 204, 228);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    margin-left: -3px;
+    line-height: 20px;
+    background: transparent;
+}
+
+#Gifts .gift-card-man{
+    border: 1px solid rgb(25, 204, 228) ;
+    height: 400px;
+    width: 350px;
+    border-radius: .5rem;
+    backdrop-filter: blur(5px);
+    margin-top: 80px;
+    margin-left: 210px;
+    transition: .4s;
+    align-items: center;
+}
+
+.gift-card-man img{
+    
+    width: 15rem;
+    border-radius: 50% 50%;
+    margin-top: 20px;
+    margin-left: 62px;
+}
+
+#Gifts .gift-card-woman{
+    border: 1px solid rgb(228, 25, 177) ;
+    position: relative;
+    height: 400px;
+    width: 350px;
+    border-radius: .5rem;
+    backdrop-filter: blur(5px);
+    margin-top: -400px;
+    margin-left: 800px;
+    transition: .4s;
+}
+
+.gift-card-woman img{
+    
+    width: 15rem;
+    border-radius: 50% 50%;
+    margin-top: 45px;
+    margin-left: 55px;
+}
+
+
+#Gifts .gift-card-man:hover{
+    box-shadow:  1pc 1pc 5pc rgb(25, 204, 228);
+}
+
+#Gifts .gift-card-woman:hover{
+    box-shadow: 1rem 1pc 5rem  rgb(228, 25, 211);
+    transition: .4s;
+}
+
+#Gifts h3 {
+    color: rgb(25, 164, 228);
+    text-decoration: none;
+    margin-top: 35p
+}
+
+#Gifts h3 .gift-card-woman{
+    color: rgb(228, 25, 211);
+    text-decoration: none;
+    margin-top: 35p
+}
+
+#Gifts .giftcard-Woman {
+    border:1px solid white;
+    height: 100px;
+    width: 100px;
+}
+/*End Card start*/
+
